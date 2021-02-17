@@ -12,7 +12,7 @@ class Peticionget extends StatelessWidget {
     print(men);
 
     var resp = await http.get(
-        'http://10.0.2.2:8080/BancaVirtualF/ws/clientes/listartransaccion?cedula=0706719291');
+        'http://10.0.2.2:8080/BancaVirtualF/ws/clientes/listartransaccion?cedula=0105662068');
     print(resp);
     print(resp.body);
   }
